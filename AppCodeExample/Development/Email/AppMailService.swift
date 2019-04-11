@@ -57,9 +57,8 @@ extension AppMailService: MFMailComposeViewControllerDelegate {
         
         switch result {
         case .failed:
-            //let returnError = PError(message: "Failed to send email")
-            //self.delegate?.emailSend(result: .failure(returnError), isSettingsMove: false)
-            break
+            let returnError = AppError("Failed to send email")
+            self.delegate?.emailSend(result: .failure(returnError))
             
         case .cancelled, .saved, .sent:
             break
