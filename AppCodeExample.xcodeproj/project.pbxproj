@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D24EDD64225FC83400E50B00 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D24EDD63225FC83400E50B00 /* MessageUI.framework */; };
 		D25B9A5F225DCD5200AF91FE /* UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25B9A5E225DCD5200AF91FE /* UINavigationController.swift */; };
 		D25B9A61225DDFF400AF91FE /* CEWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25B9A60225DDFF400AF91FE /* CEWebViewController.swift */; };
 		D25B9A66225E389300AF91FE /* CEAboutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25B9A64225E389300AF91FE /* CEAboutTableViewController.swift */; };
@@ -88,6 +89,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D24EDD63225FC83400E50B00 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		D25B9A5E225DCD5200AF91FE /* UINavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationController.swift; sourceTree = "<group>"; };
 		D25B9A60225DDFF400AF91FE /* CEWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CEWebViewController.swift; sourceTree = "<group>"; };
 		D25B9A64225E389300AF91FE /* CEAboutTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CEAboutTableViewController.swift; sourceTree = "<group>"; };
@@ -161,6 +163,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D24EDD64225FC83400E50B00 /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +400,7 @@
 		D283C573225C3FD500DD8875 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D24EDD63225FC83400E50B00 /* MessageUI.framework */,
 				D283C574225C3FD600DD8875 /* Alamofire.framework */,
 			);
 			name = Frameworks;
