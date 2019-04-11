@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CEFeedItemCell" customModule="AppCodeExample" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="CEFeedItemCell" rowHeight="66" id="kqW-o0-FcJ" customClass="CEFeedItemCell" customModule="AppCodeExample" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="66"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kqW-o0-FcJ" id="mUt-oR-Cg6">
+                <rect key="frame" x="0.0" y="0.0" width="341" height="65.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="yyyy.mm.dd hh:mm" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cgs-88-KJc">
+                        <rect key="frame" x="16" y="5" width="325" height="13.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Author: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XMc-WG-jq2">
+                        <rect key="frame" x="16" y="44" width="325" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tU9-y6-98v">
+                        <rect key="frame" x="16" y="21.5" width="325" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Cgs-88-KJc" firstAttribute="leading" secondItem="mUt-oR-Cg6" secondAttribute="leading" constant="16" id="3wj-Rv-xGV"/>
+                    <constraint firstAttribute="bottom" secondItem="XMc-WG-jq2" secondAttribute="bottom" priority="250" constant="5" id="6KN-2S-EKj"/>
+                    <constraint firstAttribute="trailing" secondItem="Cgs-88-KJc" secondAttribute="trailing" id="8fm-FC-Pnr"/>
+                    <constraint firstAttribute="trailing" secondItem="XMc-WG-jq2" secondAttribute="trailing" id="CDg-7o-g3r"/>
+                    <constraint firstItem="XMc-WG-jq2" firstAttribute="leading" secondItem="mUt-oR-Cg6" secondAttribute="leading" constant="16" id="ER2-RH-opq"/>
+                    <constraint firstAttribute="trailing" secondItem="tU9-y6-98v" secondAttribute="trailing" id="Kr8-ks-Gam"/>
+                    <constraint firstItem="tU9-y6-98v" firstAttribute="top" secondItem="Cgs-88-KJc" secondAttribute="bottom" constant="3" id="cPs-qu-Kio"/>
+                    <constraint firstItem="tU9-y6-98v" firstAttribute="leading" secondItem="mUt-oR-Cg6" secondAttribute="leading" constant="16" id="ka7-3D-vHt"/>
+                    <constraint firstItem="XMc-WG-jq2" firstAttribute="top" secondItem="tU9-y6-98v" secondAttribute="bottom" constant="2" id="nZX-VJ-eNw"/>
+                    <constraint firstItem="Cgs-88-KJc" firstAttribute="top" secondItem="mUt-oR-Cg6" secondAttribute="top" constant="5" id="orC-Yg-w50"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="authorLabel" destination="XMc-WG-jq2" id="t7q-Pj-Aox"/>
+                <outlet property="cellTitle" destination="tU9-y6-98v" id="cnI-ay-fEF"/>
+                <outlet property="dateLabel" destination="Cgs-88-KJc" id="66r-TC-QTO"/>
+            </connections>
+            <point key="canvasLocation" x="50.399999999999999" y="-21.589205397301352"/>
+        </tableViewCell>
+    </objects>
+</document>
