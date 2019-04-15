@@ -18,5 +18,4 @@ extension APIManager {
             completion(result)
         }
     }
-    
 }

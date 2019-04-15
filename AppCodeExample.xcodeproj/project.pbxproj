@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		D24EDD64225FC83400E50B00 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D24EDD63225FC83400E50B00 /* MessageUI.framework */; };
+		D251E6B4226472A0006FED75 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = D251E6B3226472A0006FED75 /* Cartfile */; };
+		D251E6B622647311006FED75 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = D251E6B522647311006FED75 /* .gitignore */; };
 		D25B9A5F225DCD5200AF91FE /* UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25B9A5E225DCD5200AF91FE /* UINavigationController.swift */; };
 		D25B9A61225DDFF400AF91FE /* CEWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25B9A60225DDFF400AF91FE /* CEWebViewController.swift */; };
 		D25B9A66225E389300AF91FE /* CEAboutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25B9A64225E389300AF91FE /* CEAboutTableViewController.swift */; };
@@ -25,6 +27,9 @@
 		D25B9A82225F51C700AF91FE /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25B9A81225F51C700AF91FE /* UILabel.swift */; };
 		D25B9A84225F520E00AF91FE /* UIEdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25B9A83225F520E00AF91FE /* UIEdgeInsets.swift */; };
 		D25B9A86225F579B00AF91FE /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25B9A85225F579B00AF91FE /* UIDevice.swift */; };
+		D266E2A9226476D7008CC4D5 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D266E2A8226476D7008CC4D5 /* Alamofire.framework */; };
+		D266E2AA226476D7008CC4D5 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D266E2A8226476D7008CC4D5 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D266E2AC2264771D008CC4D5 /* Cartfile.resolved in Resources */ = {isa = PBXBuildFile; fileRef = D266E2AB2264771D008CC4D5 /* Cartfile.resolved */; };
 		D283C4F8225C2AB800DD8875 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D283C4F7225C2AB800DD8875 /* AppDelegate.swift */; };
 		D283C4FD225C2AB800DD8875 /* ThisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D283C4FC225C2AB800DD8875 /* ThisApp.swift */; };
 		D283C4FF225C2AB800DD8875 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D283C4FE225C2AB800DD8875 /* UIViewController.swift */; };
@@ -54,10 +59,6 @@
 		D283C551225C2AB900DD8875 /* AssetsImg.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D283C550225C2AB900DD8875 /* AssetsImg.xcassets */; };
 		D283C554225C2AB900DD8875 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D283C552225C2AB900DD8875 /* LaunchScreen.storyboard */; };
 		D283C569225C356500DD8875 /* CEFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = D283C568225C356500DD8875 /* CEFeed.swift */; };
-		D283C56C225C3DBA00DD8875 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = D283C56B225C3DBA00DD8875 /* .gitignore */; };
-		D283C570225C3E8400DD8875 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = D283C56F225C3E8400DD8875 /* Cartfile */; };
-		D283C572225C3F9D00DD8875 /* Cartfile.resolved in Resources */ = {isa = PBXBuildFile; fileRef = D283C571225C3F9D00DD8875 /* Cartfile.resolved */; };
-		D288EB32225C445400350077 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D283C574225C3FD600DD8875 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D288EB35225C4C4A00350077 /* APIManagerFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = D288EB34225C4C4A00350077 /* APIManagerFeed.swift */; };
 		D288EB38225C8AF900350077 /* AppErrorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D288EB37225C8AF900350077 /* AppErrorType.swift */; };
 		D288EB3A225C8B4400350077 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D288EB39225C8B4400350077 /* AppError.swift */; };
@@ -81,7 +82,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				D288EB32225C445400350077 /* Alamofire.framework in Embed Frameworks */,
+				D266E2AA226476D7008CC4D5 /* Alamofire.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -90,6 +91,9 @@
 
 /* Begin PBXFileReference section */
 		D24EDD63225FC83400E50B00 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		D251E6B3226472A0006FED75 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = SOURCE_ROOT; };
+		D251E6B522647311006FED75 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = SOURCE_ROOT; };
+		D251E6B7226473B7006FED75 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		D25B9A5E225DCD5200AF91FE /* UINavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationController.swift; sourceTree = "<group>"; };
 		D25B9A60225DDFF400AF91FE /* CEWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CEWebViewController.swift; sourceTree = "<group>"; };
 		D25B9A64225E389300AF91FE /* CEAboutTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CEAboutTableViewController.swift; sourceTree = "<group>"; };
@@ -107,6 +111,8 @@
 		D25B9A81225F51C700AF91FE /* UILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
 		D25B9A83225F520E00AF91FE /* UIEdgeInsets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIEdgeInsets.swift; sourceTree = "<group>"; };
 		D25B9A85225F579B00AF91FE /* UIDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDevice.swift; sourceTree = "<group>"; };
+		D266E2A8226476D7008CC4D5 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		D266E2AB2264771D008CC4D5 /* Cartfile.resolved */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile.resolved; sourceTree = SOURCE_ROOT; };
 		D283C4F4225C2AB800DD8875 /* AppCodeExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppCodeExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D283C4F7225C2AB800DD8875 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D283C4FC225C2AB800DD8875 /* ThisApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThisApp.swift; sourceTree = "<group>"; };
@@ -138,10 +144,6 @@
 		D283C553225C2AB900DD8875 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D283C555225C2AB900DD8875 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D283C568225C356500DD8875 /* CEFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CEFeed.swift; sourceTree = "<group>"; };
-		D283C56B225C3DBA00DD8875 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		D283C56F225C3E8400DD8875 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
-		D283C571225C3F9D00DD8875 /* Cartfile.resolved */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile.resolved; sourceTree = "<group>"; };
-		D283C574225C3FD600DD8875 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = AppCodeExample/Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		D288EB34225C4C4A00350077 /* APIManagerFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManagerFeed.swift; sourceTree = "<group>"; };
 		D288EB37225C8AF900350077 /* AppErrorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppErrorType.swift; sourceTree = "<group>"; };
 		D288EB39225C8B4400350077 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
@@ -164,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D24EDD64225FC83400E50B00 /* MessageUI.framework in Frameworks */,
+				D266E2A9226476D7008CC4D5 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,6 +227,7 @@
 		D283C4EB225C2AB800DD8875 = {
 			isa = PBXGroup;
 			children = (
+				D266E2A8226476D7008CC4D5 /* Alamofire.framework */,
 				D283C4F6225C2AB800DD8875 /* AppCodeExample */,
 				D283C4F5225C2AB800DD8875 /* Products */,
 				D283C573225C3FD500DD8875 /* Frameworks */,
@@ -383,7 +387,7 @@
 		D283C56A225C3D0D00DD8875 /* Git */ = {
 			isa = PBXGroup;
 			children = (
-				D283C56B225C3DBA00DD8875 /* .gitignore */,
+				D251E6B522647311006FED75 /* .gitignore */,
 			);
 			name = Git;
 			sourceTree = "<group>";
@@ -391,8 +395,8 @@
 		D283C56E225C3E3A00DD8875 /* Carthage */ = {
 			isa = PBXGroup;
 			children = (
-				D283C56F225C3E8400DD8875 /* Cartfile */,
-				D283C571225C3F9D00DD8875 /* Cartfile.resolved */,
+				D251E6B3226472A0006FED75 /* Cartfile */,
+				D266E2AB2264771D008CC4D5 /* Cartfile.resolved */,
 			);
 			name = Carthage;
 			sourceTree = "<group>";
@@ -400,8 +404,8 @@
 		D283C573225C3FD500DD8875 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D251E6B7226473B7006FED75 /* Alamofire.framework */,
 				D24EDD63225FC83400E50B00 /* MessageUI.framework */,
-				D283C574225C3FD600DD8875 /* Alamofire.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -446,6 +450,7 @@
 				D283C4F1225C2AB800DD8875 /* Frameworks */,
 				D283C4F2225C2AB800DD8875 /* Resources */,
 				D288EB33225C445400350077 /* Embed Frameworks */,
+				D266E2A72264764F008CC4D5 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -495,12 +500,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D251E6B4226472A0006FED75 /* Cartfile in Resources */,
+				D266E2AC2264771D008CC4D5 /* Cartfile.resolved in Resources */,
 				D25B9A6D225E391700AF91FE /* CEDescriptionCell.xib in Resources */,
 				D288EB43225CECCE00350077 /* Main.storyboard in Resources */,
 				D25B9A80225F33CC00AF91FE /* About.storyboard in Resources */,
-				D283C570225C3E8400DD8875 /* Cartfile in Resources */,
-				D283C572225C3F9D00DD8875 /* Cartfile.resolved in Resources */,
-				D283C56C225C3DBA00DD8875 /* .gitignore in Resources */,
+				D251E6B622647311006FED75 /* .gitignore in Resources */,
 				D25B9A7A225E3CA800AF91FE /* CEAboutHeaderView.xib in Resources */,
 				D25B9A71225E393300AF91FE /* CESupportCell.xib in Resources */,
 				D283C54F225C2AB800DD8875 /* FakeLaunch.storyboard in Resources */,
@@ -511,6 +516,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D266E2A72264764F008CC4D5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D283C4F0225C2AB800DD8875 /* Sources */ = {
@@ -709,6 +735,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/AppCodeExample/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = AppCodeExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
@@ -731,6 +758,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/AppCodeExample/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = AppCodeExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
